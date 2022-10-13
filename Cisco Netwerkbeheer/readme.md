@@ -9,7 +9,7 @@ $ no ip domain-lookup
 $ line console 0 
 $ password <wachtwoord>
 $ end
-$ copy running-config startup-config
+$ copy running-config startup-config \\ kan ook naar tftp
 ```
 # IP Configuratie
 Dit is voor interfaces van routers en switches. Dit gaat niet over VLANs of sub-interfaces. 
