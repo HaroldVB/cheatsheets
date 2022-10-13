@@ -31,6 +31,16 @@ $ network <subnet van direct aangesloten netwerk>
 $ passive-interface <interface waar geen L3 switch of router aan verbonden is>
 ```
 
+# DHCP
+```
+$ ip dhcp pool <naam>
+$ network <subnet> <subnet mask>
+$ default-router <IP van default gateway>
+$ dns-server <IP van dns server>
+$ exit
+$ ip dhcp excluded-address <start van excluded range> <end van excluded range>
+```
+
 # VLANs
 ## Switches
 ### VLAN Aanmaken
