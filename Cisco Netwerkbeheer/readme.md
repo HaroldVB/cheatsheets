@@ -29,6 +29,7 @@ $ router rip
 $ version 2
 $ network <subnet van direct aangesloten netwerk>
 $ passive-interface <interface waar geen L3 switch of router aan verbonden is>
+$ redistribute static
 ```
 
 # DHCP
