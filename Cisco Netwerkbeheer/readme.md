@@ -29,7 +29,7 @@ $ router rip
 $ version 2
 $ network <subnet van direct aangesloten netwerk>
 $ passive-interface <interface waar geen L3 switch of router aan verbonden is>
-$ redistribute static
+$ redistribute static <Op de router waar de default route naar het WAN is.>
 ```
 
 # DHCP
