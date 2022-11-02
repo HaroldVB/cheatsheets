@@ -31,7 +31,14 @@ $ network <subnet van direct aangesloten netwerk>
 $ passive-interface <interface waar geen L3 switch of router aan verbonden is>
 $ redistribute static <Op de router waar de default route naar het WAN is.>
 ```
-
+# OSPF
+```
+$ router ospf <process-id>
+$ network <subnet> <wildcard-mask> area <area-id>
+$ passive-interface <interface>
+$ interface <interface voor ospf>
+$ ip ospf <process-id> area <area-id>
+```
 # DHCP
 ```
 $ ip dhcp pool <naam>
