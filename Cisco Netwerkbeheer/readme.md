@@ -54,7 +54,9 @@ $ ip dhcp excluded-address <start van excluded range> <end van excluded range>
 ### VLAN Aanmaken
 ```
 $ vlan <vlan nummer>
-$ vlan name <vlan naam>
+$ name <vlan naam>
+$ exit
+$ interface vlan <vlan nummer of naam>
 $ ip address <ip adres in VLAN> <subnet mask> \\ Alleen gebruiken indien nodig
 $ no shutdown
 ```
@@ -74,6 +76,11 @@ $ int range <interface nummer - einde reeks> \\ bijv: int range f1/1 - 24
 $ switchport mode access
 $ switchport access vlan <VLAN nummer>
 $ no shutdown
+```
+## Routers
+### sub-interfaces
+```
+
 ```
 # SSH
 ```
