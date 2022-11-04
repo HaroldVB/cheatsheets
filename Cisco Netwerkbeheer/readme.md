@@ -80,7 +80,10 @@ $ no shutdown
 ## Routers
 ### sub-interfaces
 ```
-
+$ int <poort>.<vlan nummer> \\ bijv: g0/0.20
+$ encapsulation dot1q <vlan nummer>
+$ ip address <default-gateway van vlan> <subnet mask>
+$ ip helper-address <IP van DHCP server> \\ Alleen indien nodig
 ```
 # SSH
 ```
